@@ -1,2 +1,2 @@
-aws-cdk-lib==2.10.0
+aws-cdk-lib==2.20.0
 PyYAML==6.0
