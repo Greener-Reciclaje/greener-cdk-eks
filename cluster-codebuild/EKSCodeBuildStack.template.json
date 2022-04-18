@@ -158,14 +158,11 @@
           "Type": "LINUX_CONTAINER"
         },
         "ServiceRole": {
-          "Fn::GetAtt": [
-            "EKSCodeBuildRole5B8B1ABC",
-            "Arn"
-          ]
+          "Fn::GetAtt": ["EKSCodeBuildRole5B8B1ABC", "Arn"]
         },
         "Source": {
           "BuildSpec": "cluster-bootstrap/buildspec.yml",
-          "Location": "https://github.com/aws-quickstart/quickstart-eks-cdk-python.git",
+          "Location": "https://github.com/Greener-Reciclaje/greener-cdk-eks.git",
           "ReportBuildStatus": true,
           "Type": "GITHUB"
         },
